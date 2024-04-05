@@ -7,8 +7,8 @@ pipeline {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
         NEXUS_URL = "54.159.62.103:8081"
-        NEXUS_REPOSITORY = "devops"
-        NEXUS_CREDENTIAL_ID = "Nexus_server"
+        NEXUS_REPOSITORY = "nexus"
+        NEXUS_CREDENTIAL_ID = "nexus-1"
     }
     stages {
         stage("clone code") {
